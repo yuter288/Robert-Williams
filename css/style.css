@@ -1,0 +1,12 @@
+@import url("header-style.css");
+
+@font-face {
+    font-family: "Sen";
+    src: url(fonts/Sen-Bold.ttf) format(truetype);
+    font-weight: 700;
+}
+
+.container {
+    background-color: #000;
+}
+
