@@ -179,9 +179,22 @@
     line-height: 150%; 
 }
 
+.values-container {
+    display: flex;
+    height: 600px;
+    width: 100%;
+}
 
+.values__left-container {
+    width: 50%;
+    background: var(--peach-accent, #FFF3E4);
+}
 
-
+.values__right-container {
+    width: 50%;
+    background-image: url(../images/values-img1.jpg);
+    display: block;
+}
 
 
 
@@ -250,6 +263,9 @@
     .main__hero-title-text_span {
         font-size: 42px;
     }
+    .values__right-container {
+        background-image: url(../images/values-img2.png);
+    }
 }
 
 @media (width <= 360px) {
@@ -288,4 +304,12 @@
     .companies-second__row {
         display: block;
     }
+    .values__right-container {
+        background-image: url(../images/values-img2.png);
+    }
+    .values-container {
+        display: block;
+    }
 }
+
+
