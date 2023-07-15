@@ -316,6 +316,224 @@
     padding-bottom: 10px;
 }
 
+.skroll-bar-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    background-color: #000;
+    height: 140px;
+    padding-left: 60px;
+    padding-top: 100px;
+}
+
+.skroll-bar__left-column {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.skroll-bar__right-column {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.skroll-bar__content_container {
+    height: 100%;
+    width: 340px;
+    border: 1px solid var(--level-1, #181823);
+    text-align: center;
+}
+
+.skroll-bar__content-img {
+    margin-top: 59px;
+}
+
+.past-8-years-container {
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 200px;
+}
+
+.past-8-years__left_column-container {
+    width: 50%;
+    height: 2500px;
+    padding-right: 10px;
+}
+
+.past-8-years__right_column-container {
+    width: 50%;
+    height: 2500px;
+    padding-left: 10px;
+}
+.past-8-years__column-header-footer_content {
+    height: 10%;
+    width: 100%;
+}
+
+.past-8-years__column-header-footer_content-top_text {
+    color: var(--light-grey, #8491A0);
+    font-family: Sen;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    text-transform: uppercase;
+}
+
+.past-8-years__column-header-footer_content-text {
+    color: var(--white, #FFF);
+    font-family: Sen;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.past-8-years__column-container-content {
+    width: 100%;
+    height: 1000px;
+    padding-bottom: 100px;
+}
+
+.past-8-years__column-container-img1 {
+    height: 75%;
+    background-image: url(../images/past-8-years-img1.png);
+    background-size: 100%;
+}
+
+.past-8-years__column-container-img2 {
+    height: 75%;
+    background-image: url(../images/past-8-years-img2.png);
+    background-size: 100%;
+}
+
+.past-8-years__column-container-img3 {
+    height: 75%;
+    background-image: url(../images/past-8-years-img3.png);
+    background-size: 100%;
+}
+
+.past-8-years__column-container-img4 {
+    height: 75%;
+    background-image: url(../images/past-8-years-img4.png);
+    background-size: 100%;
+}
+
+.past-8-years__column-container-text {
+    height: 25%;
+    background: var(--level-1, #181823);
+    padding: 40px 0px 40px 30px;
+}
+
+.past-8-years__column-container-text_lable {
+    color: var(--white, #FFF);
+    font-family: Sen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    padding-bottom: 20px;
+}
+
+.past-8-years__column-container-text_text {
+    color: var(--light-grey, #8491A0);
+    font-family: Sen;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.past-8-years__column-header-footer_content2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 110px;
+    padding-left: 40%;
+}
+
+.past-8-years__column-header-footer_content-button {
+    color: var(--white, #FFF);
+    font-family: Sen;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+    border: 1px solid var(--purple, #5221E6);
+    padding: 20px 20px ;
+}
+
+.instagram-container {
+    display: flex;
+    height: 600px;
+    width: 100%;
+}
+
+.instagram-left__container {
+    width: 50%;
+    background: var(--violet-accent, #FBE4FF);
+    padding-left: 5%;
+    padding-top: 100px;
+    padding-right: 5%;
+}
+
+.instagram-title {
+    color: var(--level-1, #181823);
+    font-family: Sen;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.instagram-text {
+    color: var(--dark-grey, #5B6876);
+    font-family: Sen;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.instagram-bottom-text {
+    width: 150px;
+    border: #000;
+}
+
+.instagram-bottom-text-text {
+    color: var(--level-1, #181823);
+    font-family: Sen;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    margin-top: 100px;
+}
+
+.instagram-right__container {
+    width: 50%;
+    background-image: url(../images/instagram-img.png);
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -401,6 +619,33 @@
     .skillset__left-container {
         width: 80%;
     }
+    .skroll-bar-container {
+        flex-direction: row;
+        overflow-x: hidden;
+        height: 420px;
+    }
+    .skroll-bar__left-column {
+        flex-direction: column;
+    }
+    .skroll-bar__right-column {
+        flex-direction: column;
+    }
+    .past-8-years-container {
+        display: block;
+    }
+    .past-8-years__left_column-container {
+        width: 100%;
+    }
+    .past-8-years__right_column-container {
+        width: 100%;
+    }
+    .past-8-years__column-header-footer_content2 {
+        display: none;
+        position: absolute;
+    }
+    .past-8-years__right_column-container {
+        padding-left: 0px;
+    }
 }
 
 @media (width <= 360px) {
@@ -439,9 +684,13 @@
     .companies-second__row {
         display: block;
     }
+    .values__left-container {
+        width: 100%;
+    }
     .values__right-container {
         background-image: url(../images/values-img2.png);
         height: 600px;
+        width: 100%;
     }
     .values-container {
         display: contents;
@@ -458,6 +707,42 @@
     } 
     .skillset__right-container {
         display: block;
+    }
+    .past-8-years__column-container-img1 {
+        height: 50%;
+        background-image: url(../images/past-8-years-img11.png);
+
+    }
+    .past-8-years__column-container-img2 {
+        height: 50%;
+        background-image: url(../images/past-8-years-img22.png);
+
+    }
+    .past-8-years__column-container-img3 {
+        height: 50%;
+        background-image: url(../images/past-8-years-img33.png);
+
+    }
+    .past-8-years__column-container-img4 {
+        height: 50%;
+        background-image: url(../images/past-8-years-img44.png);
+
+    }
+    .past-8-years__column-container-text {
+        height: 50%;
+    }
+    .past-8-years__right_column-container {
+        padding-left: 0px;
+    }
+    .instagram-container {
+        display: block;
+    }
+    .instagram-left__container {
+        width: 100%;
+    }
+    .instagram-right__container {
+        width: 100%;
+        background-image: url(../images/values-img2.png);
     }
 }
 
