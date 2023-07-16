@@ -580,8 +580,18 @@
     background-repeat: no-repeat;
 }
 
+.about-me__container {
+    display: flex;
+    padding: 50px 50px;
+}
 
+.about-me__left-container {
+    width: 50%;
+}
 
+.about-me__right-container {
+    width: 50%;
+}
 
 
 
