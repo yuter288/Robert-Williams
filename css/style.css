@@ -322,12 +322,14 @@
 .skroll-bar-container {
     display: flex;
     flex-direction: row;
-    width: 95%;
+    width: 90%;
     overflow-x: scroll;
     background-color: #000;
     height: 140px;
     padding-left: 5%;
-    padding-top: 100px;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .skroll-bar__left-column {
@@ -397,7 +399,7 @@
 
 .past-8-years__column-container-content {
     width: 100%;
-    height: 1000px;
+    height: 800px;
     padding-bottom: 100px;
 }
 
@@ -578,9 +580,11 @@
 .dribbble__img-main {
     background-image: url(../images/dribling-main-img.png);
     width: 100%;
+    background-size: 100%;
     height: 640px;
     border-radius: 0px 0px 8px 8px;
     background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 
@@ -1031,7 +1035,7 @@
         padding-left: 0px;
     }
     .skroll-bar__content_container {
-        width: 50%;
+        width: 100%;
     }
     .skroll-bar__left-column {
         flex-direction: column;
@@ -1216,5 +1220,3 @@
         display: block;
     }
 }
-
-
