@@ -1,6 +1,9 @@
+
+
 .header__container {
     height: 72px;
     display: flex;
+    
 }
 
 .header__right-column {
