@@ -30,12 +30,13 @@
 .main__hero-img_container {
     position: absolute;
     margin-top: 60px;
-    width: 480px;
-    height: 415px;
+    width: 40%;
+    height: 550px;
     display: block;
     background-color: #fff;
     background-image: url("../images/Robin-img1.jpg");
     background-size: cover;
+    
 }
 
 .main__hero-img {
@@ -1082,7 +1083,7 @@ a:hover:after{
         height: 650px;
     }
 
-    .main__hero-img_container {
+    /* .main__hero-img_container {
         position: absolute;
         margin-top: 60px;
         width: 480px;
@@ -1091,7 +1092,7 @@ a:hover:after{
         background-color: #fff;
         background-image: url("../images/Robin-img1.jpg");
         background-size: 100%;
-    }
+    } */
 
     .main__hero-title-text {
         font-size: 52px;
@@ -1416,5 +1417,14 @@ a:hover:after{
 
     .footer-right_column {
         display: block;
+    }
+    .companies__title-text {
+        font-size: 32px;
+    }
+    .companies-container {
+        padding-top: 200px;
+    }
+    .instagram-title {
+        font-size: 32px;
     }
 }
