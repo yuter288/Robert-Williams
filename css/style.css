@@ -79,7 +79,7 @@
 }
 
 .main__hero-text-text {
-    color: var(--white, #FFF);
+    color:  #FFF;
     font-family: Sen;
     font-size: 18px;
     font-style: normal;
@@ -101,7 +101,7 @@
 }
 
 .companies__up-text-text {
-    color: var(--light-grey, #8491A0);
+    color:  #8491A0;
     font-family: Sen;
     font-size: 16px;
     font-style: normal;
@@ -370,9 +370,10 @@
 
 .past-8-years-container {
     display: flex;
-    padding-left: 80px;
-    padding-right: 80px;
     margin-top: 200px;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .past-8-years__left_column-container {
@@ -551,7 +552,8 @@
 }
 
 .dribbble__container {
-    padding: 200px 100px 150px 100px;
+    padding: 200px 5% 150px 5%;
+    width: 90%;
 }
 
 .dribbble__text-container {
@@ -875,11 +877,26 @@
 
 .text-field__input {
     display: block;
-    width: 80%;
+    width: 97%;
     height: calc(2.25rem + 2px);
     padding: 0.375rem 0.75rem;
-    font-family: inherit;
-    font-size: 1rem;
+    font-family: "Sen", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background: #181823;
+    background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: #fff;
+}
+
+.text-field__input2 {
+    display: block;
+    width: 97%;
+    height: calc(7rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: "Sen", sans-serif;
+    font-size: 2rem;
     font-weight: 400;
     line-height: 1.5;
     background: var(--level-1, #181823);
@@ -906,7 +923,7 @@
 }
 
 .text-field-text {
-    color: var(--white, #FFF);
+    color: #FFF;
     font-family: Sen;
     font-size: 16px;
     font-style: normal;
@@ -924,7 +941,8 @@
 }
 
 .get_started-left_column {
-    width: 100%;
+    width: 90%;
+    padding-right: 10%;
 }
 
 .get_started-right_column {
@@ -932,7 +950,7 @@
 }
 
 .get_started-left_column_title {
-    color: var(--white, #FFF);
+    color: #FFF;
     font-family: Sen;
     font-size: 55px;
     font-style: normal;
@@ -941,7 +959,7 @@
 }
 
 .get_started-left_column_text {
-    color: var(--light-grey, #8491A0);
+    color: #8491A0;
     font-family: Sen;
     font-size: 18px;
     font-style: normal;
@@ -997,7 +1015,7 @@
   margin-left: 34%;
 }
 
-a{
+.wrapper-header-button:first-child{
   display: block;
   width: 123%;
   height: 40px;
@@ -1013,10 +1031,10 @@ a{
   transition: all .35s;
 }
 
-a span{
+.wrapper-header-button:first-child span{
     position: relative;
     z-index: 2;
-    font-family: Sen;
+    font-family: "Sen", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -1024,7 +1042,7 @@ a span{
     text-transform: uppercase;
 }
 
-a:after{
+.wrapper-header-button:first-child:after{
   position: absolute;
   content: "";
   top: 0;
@@ -1035,18 +1053,33 @@ a:after{
   transition: all .35s;
 }
 
-a:hover{
+.wrapper-header-button:first-child:hover{
   color: #fff;
 }
 
-a:hover:after{
+.wrapper-header-button:first-child:hover:after{
   width: 100%;
 }
 
+.text-field__button_container {
+    width: 100%;
+    height: 60px;
+    background-color: #5221E6;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 35px;
 
+}
 
-
-
+.text-field__button {
+    color: #FFF;
+    font-family: Sen;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+}
 
 
 
@@ -1375,10 +1408,6 @@ a:hover:after{
     .about-me__right-container {
         width: 100%;
     }
-    .dribbble__container {
-        padding-left: 25%;
-    }
-
     .Italy__bottom-row {
         flex-direction: column;
     }
@@ -1390,11 +1419,21 @@ a:hover:after{
     .Ttaly__img {
         width: 300px;
     }
-
+    .tab__buttons {
+        width: 100%;
+    }
+    .tab__buttons-bottom_row {
+        width: 100%;
+    }
     .tab {
         flex-direction: column;
+        gap: 20px;
     }
-
+    .tablinks {
+        width: 50%;
+        text-align: center;
+        justify-content: center;
+    }
     .tabs-title-text {
         font-size: 32px;
     }
@@ -1427,4 +1466,5 @@ a:hover:after{
     .instagram-title {
         font-size: 32px;
     }
+    
 }

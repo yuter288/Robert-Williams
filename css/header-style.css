@@ -70,7 +70,7 @@
 
   }
   
-  a{
+  .wrapper-header-button{
     display: block;
     width: 123%;
     height: 90px;
@@ -86,7 +86,7 @@
     transition: all .35s;
   }
   
-  a span{
+  .wrapper-header-button span{
       position: relative;
       z-index: 2;
       font-family: Sen;
@@ -96,7 +96,7 @@
       line-height: 150%; 
   }
   
-  a:after{
+  .wrapper-header-button:after{
     position: absolute;
     content: "";
     top: 0;
@@ -107,11 +107,11 @@
     transition: all .35s;
   }
   
-  a:hover{
+  .wrapper-header-button:hover{
     color: #fff;
   }
   
-  a:hover:after{
+  .wrapper-header-button:hover:after{
     width: 100%;
   }
 
